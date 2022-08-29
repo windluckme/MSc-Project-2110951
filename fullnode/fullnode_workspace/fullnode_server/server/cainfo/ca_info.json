@@ -1,0 +1,15 @@
+{
+    "CA_PRIVATE_KEY" : "00DEE8D2FAC9E83E583343199B2646EBBDE5BFA13F8681C4BC2959FE70AD5F0864",
+    "CA_PUBLICATE_KEY" : "75920A407FB59B1CA1916740EFE4208F10367D3139FBE5FA75A039ED823CAFA3267303150F93B705339CA172924E80D8A28C3FF00BA2DBDDCB094846ED2236EF",
+    "ISSUER_NAME" : {
+        "country_name": "CN",
+        "state_or_province_name": "TestProvince",
+        "locality_name": "TestCity",
+        "organization_name": "TestGroup",
+        "organizational_unit_name": "Testing",
+        "common_name": "LI Ming",
+        "email_address": "test@test.com"
+    },
+    "CA_ACCOUNT_ADDRESS" : "0xC676f75f9542f624AACbE99D0118e945B97041AB",
+    "CA_ACCOUNT_PASSWORD" : "test"
+}

@@ -87,7 +87,7 @@ truffle migrate --network development
 Get the contract address and fill in the contract address
 `~/cablockchain/fullnode/fullnode_workspace/fullnode_server/server`  in Web3util.py 
 
-![image-20220829103518990](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829103518990.png)
+![image-20220829103518990](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829103518990.png)
 
 
 
@@ -157,7 +157,7 @@ On the geth console of the initial node, use the `admin.nodeInfo.enode` command 
 
 Then, on the newly started full node console, use the `admin.addPeer` command to connect the initial node. Note that the port is modified to the ip of the initial node.
 
-![image-20220829104636826](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829104636826.png)
+![image-20220829104636826](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829104636826.png)
 
 
 
@@ -183,11 +183,11 @@ python3 workspace/lightnode_server/manage.py runserver 0.0.0.0:8000
 
 The project folder structure is as follows:
 
-![image-20220829105852453](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829105852453.png)
+![image-20220829105852453](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829105852453.png)
 
 
 
-![image-20220829105903066](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829105903066.png)
+![image-20220829105903066](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829105903066.png)
 
 It is mainly divided into five folders: `contract, fullnode, lightnode, initnode and workspace`.
 
@@ -199,7 +199,7 @@ The `fullnode` folder is used to deploy all nodes, including `dockerfile` and `f
 
 `fullnode_ server` file structure is as follows:
 
-![image-20220829114026089](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829114026089.png)
+![image-20220829114026089](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829114026089.png)
 
 
 
@@ -223,27 +223,27 @@ The `fullnode` folder is used to deploy all nodes, including `dockerfile` and `f
 
 Create CA certificate
 
-![image-20220829143621005](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829143621005.png)
+![image-20220829143621005](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829143621005.png)
 
 
 
 Light nodes apply for identity certificates.
 
-![image-20220829143726070](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829143726070.png)
+![image-20220829143726070](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829143726070.png)
 
 The authorized person applies for the authorization certificate from the authorizer.
 
-![image-20220829143854535](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829143854535.png)
+![image-20220829143854535](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829143854535.png)
 
 The authorized person applies for the information of the authorized person.
 
-![image-20220829144109781](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829144109781.png)
+![image-20220829144109781](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829144109781.png)
 
 
 
 Apply for revocation of certificate.
 
-![image-20220829144209853](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829144209853.png)
+![image-20220829144209853](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829144209853.png)
 
 
 ## Blockchain testing
@@ -252,6 +252,6 @@ The system uses the Ethereum client geth to build a private chain. After the suc
 
 Through the geth command line, you can see that the current node is connected to 6 nodes, and you can see the connection details.
 
-![image-20220829143259747](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829143259747.png)
+![image-20220829143259747](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829143259747.png)
 
-![image-20220829143312279](C:\Users\77142\AppData\Roaming\Typora\typora-user-images\image-20220829143312279.png)
+![image-20220829143312279](https://github.com/windluckme/MSc-Project-2110951/raw/main/img/image-20220829143312279.png)
